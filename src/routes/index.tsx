@@ -157,7 +157,7 @@ function MyExpenses() {
         cell: ({ row }) => <StatusBadge status={row.original.status} />,
       },
     ],
-    [],
+    [search.status, search.category],
   );
 
   const filters = (

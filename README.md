@@ -1,6 +1,6 @@
 # Expense Tracker
 
-**Live preview:** https://expense-tracker-xi-swart-29.vercel.app/
+**Live preview:** https://expense-tracker.ahmaddeghady.com
 
 A small internal expense tracker. Employees log expenses with receipts and submit for approval; their assigned manager reviews and approves or rejects. Live in-app notifications keep both sides in sync.
 
