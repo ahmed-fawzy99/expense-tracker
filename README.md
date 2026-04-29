@@ -40,14 +40,12 @@ Change your password from the user menu (top-right) once you're in.
 - See all your expenses on `/`, filtered by status / category.
 - Create a new expense at `/new` — save it as a draft or submit for approval. Drafts can be edited or deleted; submitted expenses are immutable to you.
 - Each expense has its own page (`/expense/:id`) with a status timeline. You'll only see status changes and the rejection reason — never the manager's intermediate workflow.
-- Get a notification (red dot in the bell, top-right) when your manager decides.
 
 **As a manager:**
 
 - See pending approvals at `/expenses`.
 - Open an expense, review its receipt, and approve or reject (rejection requires a reason).
 - The full activity timeline is visible — including handoffs in multi-tier flows.
-- Get a notification when an expense is submitted to you.
 
 ## How it's built
 
