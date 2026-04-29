@@ -107,7 +107,7 @@ pnpm dlx convex run seed:run --prod   # bootstrap roles/permissions/team in prod
    - `CONVEX_DEPLOY_KEY` — a Production deploy key from the Convex dashboard (Settings → Deploy Keys).
 3. Build settings:
    - Install command: `pnpm install`
-   - Build command: `pnpm lint && pnpm test && convex deploy --cmd 'pnpm build'` (lint + tests gate the deploy, then Convex backend is pushed and the Vite frontend is built in one step)
+   - Build command: `convex deploy --cmd 'pnpm build'` (pushes the Convex backend and builds the Vite frontend in one step; run `pnpm lint && pnpm test` locally before pushing)
    - Output directory: `dist`
 
 Changing `VITE_CONVEX_URL` requires a Vercel rebuild — it's compiled into the bundle, not read at runtime.
